@@ -12,3 +12,5 @@ cabbrev src source $MYVIMRC
 
 " autocmd
 autocmd BufWrite .vimrc source $MYVIMRC
+" split les buffers en onglets
+autocmd VimEnter * bt :tab sball<CR>

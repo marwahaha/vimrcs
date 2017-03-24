@@ -8,6 +8,14 @@ nnoremap <leader>tq :tabdo q<ESC>
 nnoremap <leader>tw :tabdo w<ESC>
 nnoremap <leader>twq :tabdo wq<ESC>
 
+"tabs
+nnoremap <leader>tn :tabnew 
+
+" tabmoves
+nnoremap <leader>h gT
+nnoremap <leader>l gt
+
+
 " commandmoves
 cnoremap kk <UP>
 cnoremap jj <DOWN>
@@ -37,8 +45,6 @@ nnoremap == gg=G``zz
 nnoremap L Lzz
 nnoremap H Hzz
 
-" split les buffers en onglets
-nnoremap bt :tab sball<CR>
 
 "some moves
 nnoremap <leader>r /return<cr>:noh<ESC>
@@ -57,10 +63,6 @@ nnoremap <leader>ii 13GO#include
 "fold/unfold function 
 nnoremap <leader>f vi{zf
 nnoremap <leader>F zo
-
-" tabmoves
-nnoremap <leader>h gT
-nnoremap <leader>l gt
 
 " define search
 map	 <leader>D yiw mak?<C-R>"<ESC>yy:echo "<C-R>""<ESC>`a
