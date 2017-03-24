@@ -1,9 +1,3 @@
-
-" commands
-command! Tq tabdo q
-command! Tw tabdo w
-command! Twq tabdo wq
-
 " autoindentation des commentaires C
 augroup Comment-Commands
 	autocmd!
@@ -17,5 +11,4 @@ iabbrev fcts functions
 cabbrev src source $MYVIMRC
 
 " autocmd
-autocmd VimEnter * echo "Hello Maoow !"
 autocmd BufWrite .vimrc source $MYVIMRC

@@ -3,17 +3,22 @@ set mouse=a
 set ruler
 
 " Theme
-highlight Normal ctermfg=grey ctermbg=0
+autocmd VimEnter * echo "Hello Maoow !"
+set colorcolumn=81 
 set cursorline
+highlight Normal ctermfg=grey ctermbg=0
 highlight CursorLine term=bold cterm=bold ctermbg=8
 highlight StatusLine  ctermfg=53 ctermbg=82
-set colorcolumn=81 
 highlight ColorColumn ctermbg=55
 highlight Visual guibg=Green term=bold cterm=bold ctermbg=22
-set relativenumber 
 highlight LineNr term=bold cterm=NONE ctermfg=22 ctermbg=0
+highlight Folded ctermfg=22 ctermbg=0
+highlight WildMenu guibg=Green ctermfg=22 ctermbg=0
+ 
+
 
 " autocmd
+set cmdheight=2
 set updatetime=1000
 autocmd CursorMoved * set rnu nonumber
 autocmd CursorHold * set number nornu
