@@ -27,6 +27,7 @@ augroup vimrc
 	autocmd VimEnter .vimrc tabnew ~/vimrcs/theme.vim
 	autocmd VimEnter .vimrc tabnew ~/vimrcs/remaps.vim
 	autocmd VimEnter .vimrc tabnew ~/vimrcs/autocmd.vim
+	autocmd VimEnter .vimrc tabnew ~/vimrcs/operators.vim
 	autocmd VimEnter .vimrc tabnew ~/vimrcs/testfct.vim
 "abbrevs
 	autocmd FileType vim iabbrev fct function
