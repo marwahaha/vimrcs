@@ -22,6 +22,9 @@ cabbrev src source $MYVIMRC
 augroup vimrc
 	autocmd!
 " autocmd
+if @% == ""
+execute "open " . $MYVIMRC
+endif
 	autocmd BufWrite .vimrc source $MYVIMRC
 	autocmd BufWrite *.vim source $MYVIMRC
 	autocmd VimEnter .vimrc tabnew ~/vimrcs/theme.vim
@@ -31,6 +34,7 @@ augroup vimrc
 	autocmd VimEnter .vimrc tabnew ~/vimrcs/testfct.vim
 "abbrevs
 	autocmd FileType vim iabbrev fct function
+"	autocmd FileType vim  set syntax=vim
 	iabbrev fcts functions
 augroup END
 " split les buffers en onglets a l'ouverture
