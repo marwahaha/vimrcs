@@ -9,7 +9,7 @@ function! TestOperator(type)
 		silent execute "normal! `<v`>y"
 	elseif a:type ==# 'char'
 		silent execute "normal! `[v`]y"
-	elseif a:type ==# 'char'
+	elseif a:type ==# 'line'
 	else
 		return
 	endif
@@ -18,10 +18,10 @@ endfunction
 function! GrepOperator(type)
 	if a:type ==? 'v' 
 		execute "normal! `<v`>y"
-	elseif a:type ==# 'char'
+elseif a:type ==# 'char'
 		execute "normal! `[v`]y"
-	else
-		return
+	elseif a:type ==# 'line'
+		execute "normal `[^v`]$y"
 	endif
 	echo @@
 endfunction

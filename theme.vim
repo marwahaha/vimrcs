@@ -13,9 +13,9 @@ if v:version != 800 "not on gvim
 	highlight CursorLine term=bold cterm=bold ctermbg=8
 	highlight StatusLine  ctermfg=53 ctermbg=82
 	highlight ColorColumn ctermbg=55
-	highlight Visual guibg=Green term=bold cterm=bold ctermbg=22
+	highlight Visual guibg=Green term=bold cterm=bold ctermbg=22 
 	highlight LineNr guifg=Green term=bold cterm=NONE ctermfg=22 ctermbg=0
-	highlight Folded ctermfg=22 ctermbg=0
+	highlight Folded ctermfg=2 ctermbg=52
 	highlight WildMenu guibg=Green ctermfg=22 ctermbg=0
 else 			"on gvim
 	highlight Normal ctermfg=grey ctermbg=0

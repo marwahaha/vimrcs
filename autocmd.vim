@@ -27,6 +27,7 @@ execute "open " . $MYVIMRC
 endif
 	autocmd BufWrite .vimrc source $MYVIMRC
 	autocmd BufWrite *.vim source $MYVIMRC
+	autocmd VimEnter .vimrc set syntax=vim
 	autocmd VimEnter .vimrc tabnew ~/vimrcs/theme.vim
 	autocmd VimEnter .vimrc tabnew ~/vimrcs/remaps.vim
 	autocmd VimEnter .vimrc tabnew ~/vimrcs/autocmd.vim
@@ -34,7 +35,7 @@ endif
 	autocmd VimEnter .vimrc tabnew ~/vimrcs/testfct.vim
 "abbrevs
 	autocmd FileType vim iabbrev fct function
-"	autocmd FileType vim  set syntax=vim
+"	autocmd FileType *.vimrc  set syntax=vim
 	iabbrev fcts functions
 augroup END
 " split les buffers en onglets a l'ouverture
