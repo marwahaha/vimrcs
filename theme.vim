@@ -9,6 +9,9 @@ autocmd VimEnter * echo "Hello Maoow !"
 set colorcolumn=81 
 set cursorline
 if v:version != 800 "not on gvim
+"not set
+	highlight Tabline ctermbg=1
+
 	highlight Normal ctermfg=grey ctermbg=0
 	highlight CursorLine term=bold cterm=bold ctermbg=8
 	highlight StatusLine  ctermfg=53 ctermbg=82
@@ -18,6 +21,7 @@ if v:version != 800 "not on gvim
 	highlight Folded ctermfg=2 ctermbg=52
 	highlight WildMenu guibg=Green ctermfg=22 ctermbg=0
 else 			"on gvim
+	highlight Tabline ctermbg=0 ctermfg=10
 	highlight Normal ctermfg=grey ctermbg=0
 	highlight StatusLine  ctermfg=53 ctermbg=82
 	highlight CursorLine term=bold cterm=bold ctermbg=4
