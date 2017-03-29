@@ -21,7 +21,9 @@ if v:version != 800 "not on gvim
 	highlight Folded ctermfg=2 ctermbg=52
 	highlight WildMenu guibg=Green ctermfg=22 ctermbg=0
 else 			"on gvim
-	highlight Tabline ctermbg=0 ctermfg=10
+	highlight Tabline ctermbg=0 ctermfg=82
+	highlight TablineSel ctermbg=0 ctermfg=10
+
 	highlight Normal ctermfg=grey ctermbg=0
 	highlight StatusLine  ctermfg=53 ctermbg=82
 	highlight CursorLine term=bold cterm=bold ctermbg=4
