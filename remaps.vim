@@ -86,3 +86,12 @@ cnoremap <C-E> <kEnd>
 
 " define search
 map	 <leader>D yiw mak?<C-R>"<ESC>yy:echo "<C-R>""<ESC>`a
+
+
+"remaps html
+
+"close
+augroup html_remaps
+	autocmd!
+	autocmd Filetype html nnoremap cc yypa/<ESC>O
+augroup End
