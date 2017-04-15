@@ -61,7 +61,6 @@ vnoremap s i"
 vnoremap S :normal! f"vi"<cr>
 vnoremap f i{
 vnoremap P i(
-vnoremap p :normal! f(vi(<cr>
 vnoremap s i"
 vnoremap v <ESC>
 vnoremap a <ESC>ggVG
