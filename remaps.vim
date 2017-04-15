@@ -94,5 +94,5 @@ map	 <leader>D yiw mak?<C-R>"<ESC>yy:echo "<C-R>""<ESC>`a
 "close
 augroup html_remaps
 	autocmd!
-	autocmd Filetype html nnoremap cc yypa/<ESC>O
+	autocmd Filetype html nnoremap cc yypa/<ESC>wwhd$a><ESC>O
 augroup End
