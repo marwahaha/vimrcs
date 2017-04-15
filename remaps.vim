@@ -68,7 +68,6 @@ onoremap a :normal! ggVG<cr>
 onoremap S :normal! f"vi"<cr>
 onoremap f i{
 onoremap P i(
-onoremap p :normal! f(vi(<cr>
 
 " new include
 nnoremap <leader>i< yy1gtGkPA;<ESC>:echo "Line added to prototypes"<ENTER>
