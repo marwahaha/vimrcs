@@ -31,16 +31,6 @@ endfunction
 function! NewHeader(name, lib)
 	execute "tabnew " . a:name . ".h" 
 	execute "Stdheader"
-	"simulate head
-	"normal i###
-	"normal o###
-	"normal o###
-	"normal o###
-	"normal o###
-	"normal o###
-	"normal o###
-	"normal o###
-	"normal o
 	execute "normal I" . a:name . "_H"
 	normal VU
 	execute "normal I#ifndef "
@@ -58,18 +48,7 @@ function! NewHeader(name, lib)
 endfunction
 function! NewSource(name, ismain)
 	execute "tabnew srcs/" . a:name . ".c"
-	""normal <F1>
-	"simulate head
 	execute "Stdheader"
-	"normal i###
-	"normal o###
-	"normal o###
-	"normal o###
-	"normal o###
-	"normal o###
-	"normal o###
-	"normal o###
-	"normal o
 	execute "normal I#include \"../includes/" . a:name . ".h\""
 	normal o
 	normal o

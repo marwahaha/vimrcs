@@ -17,6 +17,9 @@ nnoremap <leader>tn :tabnew
 nnoremap <leader>h gT
 nnoremap <leader>l gt
 
+" splitmoves
+nnoremap <leader>g <C-W>
+
 " decoupe
 augroup norme
 autocmd!
