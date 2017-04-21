@@ -2,6 +2,8 @@ syntax on
 set mouse=a
 set ruler
 set showmatch
+set incsearch
+set hlsearch
 
 set numberwidth=5
 " Theme
