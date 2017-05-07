@@ -100,3 +100,6 @@ augroup html_remaps
 	autocmd!
 	autocmd Filetype html nnoremap <leader>cc yypa/<ESC>wwhd$a><ESC>O
 augroup End
+
+" split les buffers en onglets a l'ouverture
+nnoremap <leader>bt :tab sball<ESC>

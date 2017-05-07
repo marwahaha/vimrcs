@@ -38,5 +38,3 @@ endif
 "	autocmd FileType *.vimrc  set syntax=vim
 	iabbrev fcts functions
 augroup END
-" split les buffers en onglets a l'ouverture
-nnoremap <leader>bt :tab sball<ESC>
