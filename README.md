@@ -10,3 +10,24 @@
 ## operators
    - fd to find a define
    - g for grep
+
+## remaps
+   - mapleader=' '
+   - leader to quit/write ...
+   - tn to open new tab
+   - center screen when pageup/down with H/L
+   - tabmove with hl
+   - split move with g[hjkl]
+   - jk to escape insert mode
+   - Y to yank in clipboard
+   - // to escape search highlight
+   - == autoindent
+   - put doc in bottom of screen when go to bot with G
+   - fast selectors (s/p/f/a)
+   - v to esc any visual mode
+   - fast c include
+   - ff to fast fold
+   - kk/jj to explore previous commands
+   - ctrl-a/e to begin/end like in shell
+   - html auto tag close (in progress)
+   - bt to explode a buffers into tabs
