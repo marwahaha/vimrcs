@@ -31,3 +31,9 @@
    - ctrl-a/e to begin/end like in shell
    - html auto tag close (in progress)
    - bt to explode a buffers into tabs
+
+## theme
+   - cmdheight=2
+   - updatetime=1000
+   - show relative lines when in motion
+   - status line definition
