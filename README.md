@@ -7,3 +7,6 @@
    - reload src when write .vim file
    - open all .vim files when open .vimrc
    
+## operators
+   - fd to find a define
+   - g for grep
