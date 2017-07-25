@@ -84,6 +84,9 @@ nnoremap <leader>ii 13GO#include
 nnoremap <leader>ff vi{zf
 nnoremap <leader>fo zo
 
+" fast shcommand
+nnoremap <ENTER> :!
+
 " commandmoves
 cnoremap kk <UP>
 cnoremap jj <DOWN>
