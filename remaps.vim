@@ -10,8 +10,9 @@ nnoremap <leader>tq :tabdo q<ESC>
 nnoremap <leader>tw :tabdo w<ESC>
 nnoremap <leader>twq :tabdo wq<ESC>
 
-"tabs
+"tabs and buf new
 nnoremap <leader>tn :tabnew 
+nnoremap <leader>bn :badd
 
 " tabmoves
 nnoremap <leader>h gT
