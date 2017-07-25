@@ -17,6 +17,10 @@ nnoremap <leader>tn :tabnew
 nnoremap <leader>h gT
 nnoremap <leader>l gt
 
+" bufmoves
+nnoremap <leader>j :p<ENTER>
+nnoremap <leader>k :prev<ENTER>
+
 " splitmoves
 nnoremap <leader>g <C-W>
 
