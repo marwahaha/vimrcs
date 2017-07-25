@@ -12,15 +12,15 @@ nnoremap <leader>twq :tabdo wq<ESC>
 
 "tabs and buf new
 nnoremap <leader>tn :tabnew 
-nnoremap <leader>bn :badd
+nnoremap <leader>bn :badd 
 
 " tabmoves
 nnoremap <leader>h gT
 nnoremap <leader>l gt
 
 " bufmoves
-nnoremap <leader>j :p<ENTER>
-nnoremap <leader>k :prev<ENTER>
+nnoremap <leader>j :bn<ENTER>
+nnoremap <leader>k :bp<ENTER>
 
 " splitmoves
 nnoremap <leader>g <C-W>
