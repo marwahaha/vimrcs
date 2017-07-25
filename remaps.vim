@@ -9,6 +9,7 @@ nnoremap <leader>ww :w!<ESC>
 nnoremap <leader>tq :tabdo q<ESC>
 nnoremap <leader>tw :tabdo w<ESC>
 nnoremap <leader>twq :tabdo wq<ESC>
+nnoremap <leader>bd :ls<ENTER>:bd 
 
 "tabs and buf new
 nnoremap <leader>tn :tabnew 
@@ -21,6 +22,7 @@ nnoremap <leader>l gt
 " bufmoves
 nnoremap <leader>j :bn<ENTER>
 nnoremap <leader>k :bp<ENTER>
+nnoremap <leader>bg :ls<ENTER>:b 
 
 " splitmoves
 nnoremap <leader>g <C-W>
