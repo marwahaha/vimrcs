@@ -11,8 +11,10 @@ nnoremap <leader>tw :tabdo w<ESC>
 nnoremap <leader>twq :tabdo wq<ESC>
 nnoremap <leader>bd :ls<ENTER>:bd 
 
-"tabs and buf new
+"splits tabs and buf new
 nnoremap <leader>tn :tabnew 
+nnoremap <leader>vn :vs 
+nnoremap <leader>sn :split  
 nnoremap <leader>bn :badd 
 
 " tabmoves
