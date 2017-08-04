@@ -15,6 +15,9 @@
    - mapleader=' '
    - leader to quit/write ...
    - tn to open new tab
+   - sn to open new split
+   - bn to open new buffer
+   - vn to open new vertical split
    - center screen when pageup/down with H/L
    - tabmove with hl
    - split move with g[hjkl]
