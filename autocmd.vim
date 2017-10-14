@@ -22,9 +22,6 @@ cabbrev src source $MYVIMRC
 augroup vimrc
 	autocmd!
 " autocmd
-if @% == ""
-execute "open " . $MYVIMRC
-endif
 	autocmd BufWrite .vimrc source $MYVIMRC
 	autocmd BufWrite *.vim source $MYVIMRC
 	autocmd VimEnter .vimrc set syntax=vim
