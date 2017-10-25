@@ -101,6 +101,7 @@ cnoremap <C-E> <kEnd>
 
 " search improve
 nnoremap n nzz
+nnoremap N Nzz
 
 " define search
 map	 <leader>D yiw mak?<C-R>"<ESC>yy:echo "<C-R>""<ESC>`a
