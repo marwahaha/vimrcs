@@ -10,6 +10,8 @@ nnoremap <leader>tq :tabdo q<ESC>
 nnoremap <leader>tw :tabdo w<ESC>
 nnoremap <leader>twq :tabdo wq<ESC>
 nnoremap <leader>bd :ls<ENTER>:bd 
+nnoremap <leader>bq :bd<ENTER>
+nnoremap <leader>m :w<ENTER>:!make<ENTER>
 
 "splits tabs and buf new
 nnoremap <leader>tn :tabnew 
@@ -96,6 +98,9 @@ cnoremap <C-H> <LEFT>
 cnoremap <C-L> <RIGHT>
 cnoremap <C-A> <kHome>
 cnoremap <C-E> <kEnd>
+
+" search improve
+nnoremap n nzz
 
 " define search
 map	 <leader>D yiw mak?<C-R>"<ESC>yy:echo "<C-R>""<ESC>`a
