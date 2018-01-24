@@ -18,7 +18,8 @@ augroup END
 iabbrev @@ corentin34530@hotmail.fr
 cabbrev src source $MYVIMRC
 
-
+set foldlevelstart=0
+set foldmethod=syntax
 augroup vimrc
 	autocmd!
 " autocmd
