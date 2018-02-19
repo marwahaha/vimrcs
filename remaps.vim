@@ -106,18 +106,5 @@ nnoremap N Nzz
 " define search
 map	 <leader>D yiw mak?<C-R>"<ESC>yy:echo "<C-R>""<ESC>`a
 
-
-"remaps html
-
-"close
-augroup php_remaps
-	autocmd!
-	autocmd Filetype php nnoremap <leader>cc yypa/<ESC>wwhd$a><ESC>O
-augroup End
-augroup html_remaps
-	autocmd!
-	autocmd Filetype html nnoremap <leader>cc yypa/<ESC>wwhd$a><ESC>O
-augroup End
-
-" split les buffers en onglets a l'ouverture
+" split buffers in tabs
 nnoremap <leader>bt :tab sball<ESC>
