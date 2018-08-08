@@ -34,7 +34,7 @@ nnoremap <leader>g <C-W>
 " decoupe
 augroup norme
 autocmd!
-autocmd Filetype c,h nnoremap K 80<bar>lBhr<ENTER>
+autocmd Filetype c,h nnoremap K 80<bar>lBhr<ENTER>V=
 augroup END
 
 
