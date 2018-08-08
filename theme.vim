@@ -27,11 +27,11 @@ set cursorline
 " autocmd
 set cmdheight=2
 set updatetime=1000
-
+set number relativenumber
 augroup numbercolumn
 	autocmd!
-	autocmd CursorMoved * set rnu nonumber
-	autocmd CursorHold * set number nornu
+	"autocmd CursorMoved * set rnu nonumber
+	"autocmd CursorHold * set number nornu
 augroup END
 
 
