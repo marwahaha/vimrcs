@@ -2,8 +2,8 @@
 ## autocmd
    - c/c++ comments auto format
    - synthax set (c/h/cpp/vim)
-   - mail abreviation
-   - src abreviation
+   - mail abbreviation
+   - src abbreviation
    - reload src when write .vim file
    - open all .vim files when open .vimrc
    
